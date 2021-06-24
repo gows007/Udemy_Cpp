@@ -139,7 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="assignment1.cpp" />
+    <ClCompile Include="init_types.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="reference_example.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common_func.h" />
+    <ClInclude Include="init_types.h" />
+    <ClInclude Include="reference_example.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
