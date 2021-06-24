@@ -25,6 +25,10 @@ int main()
 	Swap(num1, num2);
 
 	std::cout << " Sum is " << sum << "\nFactorial is " << fact << "\nSwapped values of " << num2 << " and " << num1 << " is " << num1 << " and " << num2;
+	std::cout << "\nSwapped values of " << num1 << " and " << num2 << " is ";
+	Swap(&num1, &num2);
+	std::cout << num1 << " and " << num2;
+
 
 	return 0;
 

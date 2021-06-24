@@ -21,3 +21,11 @@ void Swap(int& a, int& b)
 	a = b;
 	b = temp;
 }
+
+void Swap(int* a, int* b)
+{
+	int temp{};
+	temp = *a;
+	*a = *b;
+	*b = temp;
+}
