@@ -23,7 +23,7 @@ int main()
 	auto& var1 = x; // refers to const int& var
 
 	//Deduced to a pointer. * is not necessary
-	auto* ptr = &x; // refers to const int* ptr
+	auto ptr = &x; // refers to const int* ptr
 
 	return 0;
 }
