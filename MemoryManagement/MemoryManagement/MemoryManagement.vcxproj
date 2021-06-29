@@ -140,7 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
-    <ClCompile Include="malloc_egs.c" />
+    <ClCompile Include="dyna_mem_egs.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
