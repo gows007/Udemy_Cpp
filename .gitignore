@@ -32,6 +32,8 @@
 *.app
 
 # Other Files
-Project1/.vs/Project1/v16/Browse.VC.opendb
-MemoryManagement/.vs/MemoryManagement/v16/Browse.VC.opendb
+#Project1/.vs/Project1/v16/Browse.VC.opendb
+#MemoryManagement/.vs/MemoryManagement/v16/Browse.VC.opendb
+#ClassExample/.vs/ClassExample/v16/Browse.VC.opendb
+*.VC.opendb
 *.log
